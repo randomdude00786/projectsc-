@@ -85,6 +85,10 @@ case X:cout <<"X"; break;
 case O:cout <<"O"; break;
 case EMPTY: cout <<" "; break;
 }
+if(j<2) cout<<"|";
+}
+if(i<2) cout<<"\n-+-+-\n";
+}
 }
 int main()
 {
